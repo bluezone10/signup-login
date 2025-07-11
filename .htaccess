@@ -1,0 +1,12 @@
+RewriteEngine on
+
+# Handle PHP extension removal
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+# Allow access to main directory
+# No special rules needed - normal directory access
+
+# Prevent directory browsing
+Options -Indexes
