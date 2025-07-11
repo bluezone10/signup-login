@@ -224,4 +224,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📞 Support
 
-For support, email admin@catering.com or create an issue in the project repository. 
+For support, email angelocastro2000@gmail.com or create an issue in the project repository. 
